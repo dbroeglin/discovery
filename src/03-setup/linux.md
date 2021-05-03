@@ -151,7 +151,7 @@ ATTRS{idVendor}=="0483", ATTRS{idProduct}=="374b", MODE:="0666"
 
 Create `/etc/udev/rules.d/99-ftdi.rules`:
 ``` console
-sudo vi /etc/udev/rules.d/99-openocd.rules
+sudo vi /etc/udev/rules.d/99-ftdi.rules
 ```
 With the contents:
 ``` text
